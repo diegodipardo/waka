@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chew Müli Waka</title>
+    <link rel="shortcut icon" href="./images/logo-chico.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+  </head>
+  <body>
+    <div id="grillaIndex">
+      <header id="index"> 
+        <!-- Barra de navegación - Boxmodeling -->      
+        <nav class="navbar navbar-expand-md navbar-light colorNav"> 
+          <!-- Brand -->
+          <a class="navbar-brand" href="./index.html">
+            <img id="personajeGrande" src="./images/logo.png" alt="Logo Waka" style="width:100px;">
+          </a>
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav col-12 navbarCustom">
+              <li class="nav-item ml-3 bevan"><a class="nav-link" href="./views/quienes.somos.html">Quienes Somos</a></li>
+              <li class="nav-item ml-3 bevan"><a class="nav-link" href="./views/galeria.html">Galería</a></li>
+              <li class="nav-item ml-3 bevan"><a class="nav-link" href="./views/noticias.html">Blog</a></li>
+              <li class="nav-item ml-3 bevan"><a class="nav-link" href="./views/agenda.html">Agenda</a></li>
+              <li class="nav-item ml-3 bevan"><a class="nav-link" href="./views/contactanos.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main id="index">
+      <!-- Imagen de Bienvenida -->
+      <div class="page-header header-filter" data-parallax="true" alt="Hola! somos Chew Müli Waka" style="background-image: url('./images/instrumentos.jpg') ;"> </div>
+      <div class="main main-raised">
+        <div class="profile-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 ml-auto mr-auto">
+                <div class="profile">
+                  <h1>Hola! somos Chew Müli Waka</h1>
+                </div>
+              </div>
+            </div>
+            <div class="description text-center">
+            <!-- Quienes somos -->
+            <section id="quienes"> 
+              <h2 class="subtitulo">Chew muli waka es un grupo de percusión por lenguaje de señas que nació en el año 2020 en la ciudad de Chivilcoy, al calor de la pandemia y frente al deseo de conectar, compartir, fluir, liberar y enraizar colectivamente a través de los tambores. </h2>
+              <img id="personajeRota" src="./images/quienes-somos-imagen.png" alt="ilustración de persona rotando"> 
+            </section>
+            </div>
+          <!-- Integrantes -->
+          <section id="integrantes" class="main-raise"> 
+            <h2>Integrantes</h2>
+              <a href="./views/joaquin-echave.html"><img src="./images/integrante.png" alt="Joaquin Echave"></a>
+              <img src="./images/integrante.png" alt="Federico Duffó">
+              <img src="./images/integrante.png" alt="Eduardo Nicolás Cagnone">
+              <img src="./images/integrante.png" alt="Sofía de Ariztimuño">
+              <img src="./images/integrante.png" alt="Sebastián Di Pardo">
+              <img src="./images/integrante.png" alt="Florencia Cagnone">
+              <img src="./images/integrante.png" alt="Soledad Bernal">
+              <img src="./images/integrante.png" alt="Emilio Perez Di Paula">
+              <img src="./images/integrante.png" alt="Marcelo Neri">
+              <img src="./images/integrante.png" alt="Danisa Tristant">
+              <img src="./images/integrante.png" alt="Mariano Cambiasso">
+              <img src="./images/integrante.png" alt="Fermín Echave">
+          </section>
+          <!-- Próximas presentaciones -->
+          <section class="container-fluid"> 
+            <h2>Próximas presentaciones</h2>
+            <div id="calendario" class="row">
+              <!-- fecha 1 -->
+              <article class="col-sm-12 col-md-9 col-lg-12 section__article--redondeado">
+                <h3>20 de Mayo</h3>
+                <p>Teatro Coliseo</p>
+                <input class="btn btn-primary btn-round" type="submit" value="Quiero mi entrada">
+              </article>
+              <!-- fecha 2 -->
+              <article class="col-sm-12 col-md-9 col-lg-12 section__article--redondeado"> 
+                <h3>28 de Mayo</h3>
+                <p>Teatro Empire</p>
+                <input class="btn btn-primary btn-round" type="submit" value="Quiero mi entrada">
+              </article>
+            </div> 
+          </section>
+          </div>
+        </div>
+      </div>
+      </main>
+      <!-- Pie de página -->  
+      <footer id="index" class="degradadoFooter mt-5"> 
+          <div>
+            Todos los derechos reservados
+          </div>
+          <ul class="footer">
+            <li class="ul__li--linea listas--facebook"><a href="https://www.facebook.com/" target="_blank">Facebook</a> </li>
+            <li class="ul__li--linea listas--instagram"><a href="https://www.instagram.com/waka.percusion/" target="_blank">Instagram</a></li>
+            <li class="ul__li--linea listas--youtube"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li> 
+          </ul>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
