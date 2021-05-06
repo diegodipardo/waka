@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Contacto</title>
+        <link rel="shortcut icon" href="../images/logo-chico.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+        <!-- Estilos -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/estilos.css ">
+    </head>
+    <body>
+        <div id="grillaContacto">
+            <header id="index"> 
+                <!-- Barra de navegación - Boxmodeling -->      
+                <nav class="navbar navbar-expand-md navbar-light colorNav"> 
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="../index.html ">
+                        <img id="personajeGrande" src="../images/logo.png" alt="Logo Waka" style="width:100px;">
+                    </a>
+                    <!-- Toggler/collapsibe Button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav col-12 navbarCustom">
+                            <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/quienes.somos.html">Quienes Somos</a></li>
+                            <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/galeria.html">Galería</a></li>
+                            <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/noticias.html">Blog</a></li>
+                            <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/agenda.html">Agenda</a></li>
+                            <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/contactanos.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <main  id="contacto">
+                <h1>Contacto</h1>
+            </main>
+            <!-- Contacto -->
+            <section  id="contacto" class="section--margin"> 
+                <div>
+                    <h2>Persona de contacto</h2>
+                    <p>  mail@gmail.com <br>
+                    +54 11 1111 1111
+                    </p> 
+                <img id="personajeGrande" src="../images/imagen-contacto.png" alt="ilustración de persona haciendo una selfie"/>
+                </div>
+            </section> 
+            <!-- Formulario de Contacto -->
+            <section id="form">
+                <form action="" class="section__article--redondeado">
+                    <fieldset>
+                        <legend> <h2>Formulario de contacto</h2> </legend>
+                        <!-- Nombre y apellido -->
+                        <div> 
+                            <input class="form-control" type="text" name="nombre" placeholder="Nombre y Apellido">
+                        </div>
+                        <!-- email -->
+                        <div> 
+                            <input class="form-control" type="email" name="email" placeholder="Correo electrónico">
+                        </div>
+                        <!-- Menú desplegable de Asunto-->
+                        <div>
+                            <select class="custom-select" name="asunto">
+                                <option selected disabled value="Seleccionar asunto">Elegir asunto</option>
+                                <option value="presupuesto">Quiero contratarl@s</option>
+                                <option value="prensa">Prensa</option>
+                                <option value="cv">Quiero formar parte</option>
+                                <option value="fan">Hola!!</option>
+                                <option value="otro">Otro asunto</option>
+                            </select>
+                        </div>
+                        <!-- Mensaje -->
+                        <div> 
+                            <textarea class="form-control" name="mensaje" id="" cols="20" rows="3" placeholder="Mensaje"></textarea>
+                        </div>
+                        <!-- Check de terminos y condiciones -->
+                        <div class="mb-4"> 
+                            <input type="checkbox" name="check" value="1">
+                            Acepto términos y condiciones
+                        </div>
+                        <!-- Botones borrar y enviar-->
+                        <div> 
+                            <input class="btn btn-primary btn-link" type="reset" value="Borrar datos">
+                            <input class="btn btn-primary btn-round" type="submit" value="Enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- Descargas -->
+            <section  id="descargas" class="section--margin">
+                <h2>Descargas</h2>
+                <img class="descargasImg" src="../images/descarga-carpeta.png" alt="Descargar carpeta de presentación"/> 
+                <img class="descargasImg" src="../images/descarga-prensa.png" alt="Descargar Kit de prensa"/>
+            </section>
+            <!-- Pie de página -->
+            <footer id="index" class="degradadoFooter"> 
+                <div>
+                Todos los derechos reservados
+                </div>
+                <div>
+                    <ul class="footer">
+                        <li class="ul__li--linea listas--facebook"><a href="https://www.facebook.com/" target="_blank">Facebook</a> </li>
+                        <li class="ul__li--linea listas--instagram"><a href="https://www.instagram.com/waka.percusion/" target="_blank">Instagram</a></li>
+                        <li class="ul__li--linea listas--youtube"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li> 
+                    </ul>     
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>

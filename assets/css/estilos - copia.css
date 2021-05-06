@@ -1,0 +1,696 @@
+/* Reseteo CSS */
+* {
+    Margin:0;
+    text-align: center;
+}
+
+    /* Items del Nav en línea horizontal */
+    nav li {
+        display: inline-block;
+        width: 15%;
+        position:relative;
+    }
+
+    /* Nav Hover */
+    .customHover a:hover {
+        color: rgb(251, 158, 27);
+        font-weight: 600;
+        padding: 2px;
+    }
+
+    /* Próximas presentaciones recuadros  */
+    section article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color:rgb(252, 255, 240);
+        border: solid 4px rgb(53, 53, 53);
+    }
+
+    /* Noticia Principal */
+    .noticiaPrincipal {
+        display: inline-block;
+        background-color: rgb(255, 206, 140); 
+        line-height: 20px;;
+        height: 420px;
+        padding: 50px;
+        margin: 20px;
+    }
+
+    /* Noticia Secundaria */
+    .noticiaSecundaria {
+        display: inline-block;
+        background-color:rgb(252, 255, 240);
+        width: 350px;
+        height: 220px;
+        padding: 50px;
+        margin: 20px;
+    }
+
+    /* Ver mas */
+    button{
+        background-color:rgb(252, 255, 240);
+        color: rgb(251, 158, 27);
+        padding: 10px;
+        border:none;
+        font-weight: 700;
+    }
+
+    /* Ver mas Hover */
+    button a:hover {
+        background-color:rgb(251, 158, 27);
+        color: rgb(252, 255, 240);
+        padding: 10px;
+        border:none;
+        font-weight: 700;
+    }
+
+    /* Ver mas */
+    button a{
+        color: rgb(251, 158, 27);
+    }
+
+    /* color rgb al fondo de barra de navegación que está en header - saco viñetas - 
+    padding 10px bottom y top - interlineado 20px */
+    nav ul{
+        background-color: rgb(53, 53, 53);
+        list-style-type: none;
+        padding: 10px 0px;
+        line-height: 20px;
+    }
+
+    /* color RGB a los titulares H1 - Interletrado 5pt - padding 5pt bottom y top */
+    h1{
+        color: rgb(53, 53, 53);
+        letter-spacing: 5pt; 
+        padding-top: 15pt;
+        padding-bottom: 15pt;
+    }
+
+    /*color RGB a los titulares H2 - padding 5px bottom y top*/
+    h2{
+        color: rgb(53, 53, 53);
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+
+    /*color RGB a los titulares H3 - padding 5px bottom y top*/
+    h3{
+        color: rgb(6, 48, 112);
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    /* Section padding */
+    section{
+        padding: 20px;
+    }
+
+    /* interlineado 18pt */
+    p{
+        line-height: 18pt;
+    }
+
+    /*color RGB a los links del header y saco subrayado que viene por defecto*/
+    nav a{
+        color: rgb(252, 255, 240); 
+        text-decoration: none;
+    }
+
+    /*color RGB de fondo al body - fuente: Questrial*/
+    body{
+        background-color: rgb(250, 246, 241);
+        font-family: 'Questrial', sans-serif;
+    }
+
+    /* texto centrado - fondo color naranja (rgb) - color de texto crema */
+    .boton{
+        text-align: center;
+        background-color: rgb(53, 53, 53); 
+        color: rgb(252, 255, 240);
+    }
+
+    /* calendario - texto centrado - fondo color crema */
+    #calendario{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(252, 255, 240);
+    }
+
+    /* Degradados */
+    .degradadoFooter{
+        background-image: linear-gradient(rgb(53,53,53), rgb(0,0,0));
+    }
+
+    .degradadoHeader{
+        background-image: linear-gradient(rgb(255, 206, 140), rgb(53,53,53));
+    }
+
+    .degradadoSecciones{
+        background-image: linear-gradient(rgb(250, 246, 241), rgb(255, 206, 140));
+    }
+
+    /* Footer: fondo color rojo (rgb) - color de texto crema - 
+    padding 10px bottom y top - interlineado 30px*/
+    footer{
+        background-color: rgb(53, 53, 53);
+        color: rgb(252, 255, 240);    
+        line-height: 30px;
+    }
+
+    /* Nav: color de texto crema (rgb) */
+    nav{
+        color: rgb(252, 255, 240); 
+    }
+
+    /* Links de Footer - color de texto crema (rgb) */
+    footer a{
+        color: rgb(252, 255, 240); 
+    }
+
+    /* Listas desordenadas - Viñeta círculo */
+    footer ul{
+        display: inline-block;
+        position:relative;
+        width: 100px;
+    }
+
+    /* sección amarilla - interlineado 20px */
+    .naranja {
+        background-color: rgb(255, 206, 140); 
+        line-height: 20px;
+    }
+
+    /* Listas ordenadas - numeración romana Mayúsculas */
+    .listas{
+        list-style-type: upper-roman;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+    /* Listas desordenadas - Viñeta de imagen */
+    .listasImg{
+        list-style-image: url("../../images/drum.png");
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px;
+    }
+
+    /* Imagenes descargas */
+    .descargasImg{
+        display: inline-block;
+        position:relative;
+        padding: 10px;
+    }
+
+    /* Links - saco subrayado por defecto */
+    :any-link{
+        text-decoration: none;
+    }
+
+    /* imagen viñeta Facebook */
+    .facebook{
+        list-style-image: url("../../images/facebook.png");
+    }
+
+    /* imagen viñeta Instagram */
+    .instagram{
+        list-style-image: url("../../images/instagram.png");
+    }
+
+    /* imagen viñeta Youtube */
+    .youtube{
+        list-style-image: url("../../images/youtube.png");
+    }
+
+    /* Imagen principal al ancho de pantalla */
+    .img{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    /* Margen a los campos de Formulario */
+    form div{
+        margin: 5px;
+    }
+
+    /* Flexbox para galería */
+    .galeriaFlexbox{
+        display: flex; 
+        flex-wrap: wrap; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        row-gap: 30px;
+        column-gap: 10px;
+    }
+
+    /* Flexbox integrantes */
+    .integranteFlexbox{
+        display: flex;
+        flex-flow: row wrap;
+        row-gap: 20px;
+        justify-content: space-around;
+    }
+
+    /* Hover Imagen-nombre para Integrantes */
+    .container {
+        position: relative;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        background-color: rgb(251, 158, 27);
+    }
+
+    .container:hover .overlay {
+        opacity: 1;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 40%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+/* GRID AREA INDEX */
+/* MEDIA QUERIES */
+/* Mobile */
+@media (max-width: 767px) {
+
+    /* grid */
+    #grillaIndex{
+        display: grid;
+        grid-template-areas:
+                            "header"
+                            "main"
+                            "integrantes"
+                            "quienes" 
+                            "presenta"
+                            "footer";
+        
+    }
+    /* Nombres del grid-template-area */
+    header#index {
+        grid-area: header;
+    }
+    main#index{
+        grid-area: main;
+    }
+    section#integrantes{
+        grid-area:integrantes
+    }
+    section#quienes{
+        grid-area: quienes
+    }
+    section#calendario{
+        grid-area: presenta;
+    }
+    footer#index{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (min-width: 768px) and (max-width:990px) {
+
+    /* grid */
+    #grillaIndex{
+        display: grid;
+        grid-template-areas:
+                            "header header header"
+                            "main main main"
+                            "integrantes integrantes integrantes"
+                            "quienes quienes presenta"
+                            "footer footer footer";
+    }
+    /* Nombres del grid-template-area */
+    header#index {
+        grid-area: header;
+    }
+    main#index{
+        grid-area: main;
+    }
+    section#integrantes{
+        grid-area:integrantes
+    }
+    section#quienes{
+        grid-area: quienes
+    }
+    section#calendario{
+        grid-area: presenta;
+    }
+    footer#index{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Desktop */
+@media (min-width: 991px)  {
+
+    /* grid */
+    #grillaIndex{
+        display: grid;
+        grid-template-areas:
+                            "header header header header header"
+                            "main main main main main"
+                            "integrantes integrantes integrantes integrantes integrantes"
+                            "quienes quienes quienes presenta presenta"
+                            "footer footer footer footer footer";
+    }
+    /* Nombres del grid-template-area */
+    header#index {
+        grid-area: header;
+    }
+    main#index{
+        grid-area: main;
+    }
+    section#integrantes{
+        grid-area:integrantes
+    }
+    section#quienes{
+        grid-area: quienes
+    }
+    section#calendario{
+        grid-area: presenta;
+    }
+    footer#index{
+        grid-area: footer;
+    }
+}
+
+
+
+/* GRID AREA CONTACTO */
+
+/* MEDIA QUERIES */
+/* Mobile */
+@media (max-width: 767px) {
+
+    /* grid */
+    #grillaContacto{
+        display: grid;
+        grid-template-areas:
+                            "header"
+                            "nav"
+                            "main"
+                            "contacto"
+                            "form" 
+                            "descargas"
+                            "footer";
+    }
+    /* Nombres del grid-template-area */
+    header#contacto {
+        grid-area: header;
+    }
+    nav#contacto{
+        grid-area: nav;
+    }
+    main#contacto{
+        grid-area: main;
+    }
+    section#contacto{
+        grid-area:contacto;
+    }
+    section#form{
+        grid-area: form;
+    }
+    section#descargas{
+        grid-area: descargas;
+    }
+    footer#contacto{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (min-width: 768px) and (max-width:990px) {
+
+    /* grid */
+    #grillaContacto{
+        display: grid;
+        grid-template-areas:
+                            "header header"
+                            "nav nav"
+                            "main main"
+                            "contacto form"
+                            "descargas descargas"
+                            "footer footer";
+}
+    /* Nombres del grid-template-area */
+    header#contacto {
+        grid-area: header;
+    }
+    nav#contacto{
+        grid-area: nav;
+    }
+    main#contacto{
+        grid-area: main;
+    }
+    section#contacto{
+        grid-area:contacto;
+    }
+    section#form{
+        grid-area: form;
+    }
+    section#descargas{
+        grid-area: descargas;
+    }
+    footer#contacto{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Desktop */
+@media (min-width: 991px)  {
+
+    /* grid */
+    #grillaContacto{
+        display: grid;
+        grid-template-areas:
+                            "header header header"
+                            "nav nav nav"
+                            "main main main"
+                            "contacto form descargas"
+                            "footer footer footer";
+    }
+    /* Nombres del grid-template-area */
+    header#contacto {
+        grid-area: header;
+    }
+    nav#contacto{
+        grid-area: nav;
+    }
+    main#contacto{
+        grid-area: main;
+    }
+    section#contacto{
+        grid-area:contacto;
+    }
+    section#form{
+        grid-area: form;
+    }
+    section#descargas{
+        grid-area: descargas;
+    }
+    footer#contacto{
+        grid-area: footer;
+    }
+}
+
+
+/* GRID AREA AGENDA */
+
+/* MEDIA QUERIES */
+/* Mobile */
+@media (max-width: 767px) {
+
+    /* grid */
+    #grillaAgenda{
+        display: grid;
+        grid-template-areas:
+                            "header"
+                            "nav"
+                            "main"
+                            "fechaElegida"
+                            "footer";
+    }
+    /* Nombres del grid-template-area */
+    header#agenda {
+        grid-area: header;
+    }
+    nav#agenda{
+        grid-area: nav;
+    }
+    main#agenda{
+        grid-area: main;
+    }
+    section#fechaElegida{
+        grid-area: fechaElegida;
+    }
+    footer#agenda{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (min-width: 768px) and (max-width:990px) {
+
+    /* grid */
+    #grillaAgenda{
+        display: grid;
+        grid-template-areas:
+                            "header header"
+                            "nav nav"
+                            "main main"
+                            "fechaElegida fechaElegida"
+                            "footer footer";
+}
+    /* Nombres del grid-template-area */
+    header#agenda {
+        grid-area: header;
+    }
+    nav#agenda{
+        grid-area: nav;
+    }
+    main#agenda{
+        grid-area: main;
+    }
+    section#fechaElegida{
+        grid-area: fechaElegida;
+    }
+    footer#agenda{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Desktop */
+@media (min-width: 991px)  {
+
+    /* grid */
+    #grillaAgenda{
+        display: grid;
+        grid-template-areas:
+                            "header header header header"
+                            "nav nav nav nav"
+                            "main main main main"
+                            "fechaElegida fechaElegida fechaElegida fechaElegida"
+                            "footer footer footer footer";
+        align-self: center;
+    }
+    /* Nombres del grid-template-area */
+    header#agenda {
+        grid-area: header;
+    }
+    nav#agenda{
+        grid-area: nav;
+    }
+    main#agenda{
+        grid-area: main;
+    }
+    section#fechaElegida{
+        grid-area: fechaElegida;
+    }
+    footer#agenda{
+        grid-area: footer;
+    }
+}
+
+ol#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    padding: 0;
+    justify-content:space-around;
+}
+
+.first-day {
+    grid-column-start: 7
+}
+
+
+/* ANIMACIÓN ROTAR*/
+#personajeRota{
+    animation-name: personajeRota;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in ;
+    animation-duration: 2s;
+}
+
+/* Linea de tiempo */
+@keyframes personajeRota{
+    0% { 
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* ANIMACIÓN ESCALA*/
+#personajeGrande{
+    animation-name: personajeGrande;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 700ms;
+}
+
+/* Linea de tiempo */
+@keyframes personajeGrande{
+    0% { 
+        transform: scale(1);
+    }
+    80% { 
+        transform: scale(1.40);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+/* BOOTSTRAP */
+/* NAV BAR */
+.navbarCustom{
+    background-color:transparent;
+    
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }

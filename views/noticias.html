@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blog</title>
+    <link rel="shortcut icon" href="../images/logo-chico.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/estilos.css ">
+  </head>
+  <body>
+    <header id="index"> 
+      <!-- Barra de navegación - Boxmodeling -->      
+      <nav class="navbar navbar-expand-md navbar-light colorNav"> 
+          <!-- Brand -->
+          <a class="navbar-brand" href="../index.html ">
+              <img id="personajeGrande" src="../images/logo.png" alt="Logo Waka" style="width:100px;">
+          </a>
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav col-12 navbarCustom">
+                <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/quienes.somos.html">Quienes Somos</a></li>
+                <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/galeria.html">Galería</a></li>
+                <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/noticias.html">Blog</a></li>
+                <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/agenda.html">Agenda</a></li>
+                <li class="nav-item ml-3 bevan"><a class="nav-link" href="../views/contactanos.html">Contacto</a></li>
+            </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid">
+      <h1>Noticias</h1>
+      <!-- Noticia principal -->
+      <section class="row"> 
+          <div class="card col-lg-12 col-md-12 col-sm-12 section__article--margin">
+            <img src="../images/imagen_noticia_ppal.jpg" class="card-img-top" alt="ensamble tocando en estudio">
+            <div class="card-body">
+              <h5 class="card-title tituloNoticia">Noticia Principal</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ratione provident rem sint natus cumque alias.</p>
+            </div>
+          </div>
+      </section>
+      <!-- noticia secundaria -->
+      <section class="row col-lg-12 col-md-12 col-sm-12 section__article--margin"> 
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+            <div class="card">
+              <img src="../images/imagen_noticia_2daria.jpg" class="card-img-top" alt="ensamble en estudio de la radio">
+              <div class="card-body">
+                <h5 class="card-title tituloNoticia--secundaria">Noticia Secundaria</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ratione provident rem sint natus cumque alias, nam consequatur esse quo dolor totam beatae similique nobis minima quas quia modi ex..</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-3">
+            <div class="card">
+              <img src="../images/imagen_noticia_2daria.jpg" class="card-img-top" alt="ensamble en estudio de la radio">
+              <div class="card-body">
+                <h5 class="card-title tituloNoticia--secundaria">Noticia Secundaria</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ratione provident rem sint natus cumque alias, nam consequatur esse quo dolor totam beatae simiquas quia modi ex..</p>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+    <!-- Pie de página -->
+    <footer class="degradadoFooter"> 
+      <div>
+        Todos los derechos reservados
+      </div>
+      <div>
+        <ul class="footer">
+          <li class="ul__li--linea listas--facebook"><a href="https://www.facebook.com/" target="_blank">Facebook</a> </li>
+          <li class="ul__li--linea listas--instagram"><a href="https://www.instagram.com/waka.percusion/" target="_blank">Instagram</a></li>
+          <li class="ul__li--linea listas--youtube"><a href="https://www.youtube.com/" target="_blank">Youtube</a></li> 
+        </ul>     
+      </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
