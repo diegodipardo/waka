@@ -431,7 +431,8 @@ position: relative;
                             "header header header"
                             "main main main"
                             "integrantes integrantes integrantes"
-                            "quienes quienes presenta"
+                            "quienes quienes quienes"
+                            "presenta presenta presenta"
                             "footer footer footer";
     }
     /* Nombres del grid-template-area */
@@ -442,10 +443,10 @@ position: relative;
         grid-area: main;
     }
     section#integrantes{
-        grid-area:integrantes
+        grid-area:integrantes;
     }
     section#quienes{
-        grid-area: quienes
+        grid-area: quienes;
     }
     section#calendario{
         grid-area: presenta;
@@ -495,7 +496,8 @@ position: relative;
                             "header header header header header"
                             "main main main main main"
                             "integrantes integrantes integrantes integrantes integrantes"
-                            "quienes quienes quienes presenta presenta"
+                            "quienes quienes quienes quienes quienes"
+                            "presenta presenta presenta presenta presenta"
                             "footer footer footer footer footer";
     }
     /* Nombres del grid-template-area */
@@ -506,10 +508,10 @@ position: relative;
         grid-area: main;
     }
     section#integrantes{
-        grid-area:integrantes
+        grid-area:integrantes;
     }
     section#quienes{
-        grid-area: quienes
+        grid-area: quienes;
     }
     section#calendario{
         grid-area: presenta;
@@ -911,4 +913,55 @@ box-shadow: none;
 .btn-link:disabled,
 .btn-link.disabled {
 color: #999;
+}
+
+.html.w-mod-touch * {
+background-attachment: scroll;
+}
+
+
+.animaTexto {
+    transform: translate3d(0px, 50px, 0px) 
+    scale3d(1, 1, 1) 
+    rotateX(0deg) 
+    rotateY(0deg) 
+    rotateZ(0deg) 
+    skew(0deg,0deg);
+    transform-style: preserve-3d;
+    opacity: 0;
+} 
+
+.animaTexto {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) 
+    scale3d(1, 1, 1) 
+    rotateX(0deg) 
+    rotateY(0deg) 
+    rotateZ(0deg) 
+    skew(0deg,0deg);
+    transform-style: preserve-3d;
+}
+
+// EFECTO TRASLADAR HACIA ARRIBA IMAGENES Y TEXTO
+.fadeTop {
+    opacity: 0; 
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.fadeRight {
+opacity: 0;
+transform: translate(10vh, 0vh);
+transition: all 1s;
+}
+
+.fadeLeft {
+opacity: 0;
+transform: translate(-10vh, 0vh);
+transition: all 1s;
+}
+    
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
 }
