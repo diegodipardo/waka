@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+
+$bevan: 'Bevan', cursive;
+$raleway: 'Raleway', sans-serif;
+$questrial: 'Questrial', sans-serif;
+
+/*color RGB de fondo al body - fuente: Questrial*/
+body{
+    background-color: $blanco;
+    font-family: 'Questrial', sans-serif;
+}
+
+/* color RGB a los titulares H1 - Interletrado 5pt - padding 5pt bottom y top */
+h1{
+    // font-family: 'Raleway', sans-serif;
+    font-family: 'Bevan', cursive;
+    font-size: 40pt;
+    font-weight: 600;
+    line-height: 40pt;
+    color: $violeta;
+    padding-top: 15pt;
+}
+
+/*color RGB a los titulares H2 - padding 5px bottom y top*/
+h2{
+    color: $azul;
+}
+
+/*color RGB a los titulares H3 - padding 5px bottom y top*/
+h3{
+    color: $azul;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* interlineado 18pt */
+p{
+    line-height: 18pt;
+}
+
+
+/* Links - saco subrayado por defecto */
+:any-link{
+    text-decoration: none;
+}
+
+/* Mixins */
+
+@mixin fuente($font-family, $font-size, $font-weight) {
+    font-family: $font-family;
+    font-size: $font-size;
+    font-weight: $font-weight;
+}
+
+/* Extend */
+.tituloNoticia {
+    @include fuente($raleway, 30pt, 500)
+}
+.tituloNoticia--secundaria {
+    @extend .tituloNoticia;
+    font-size: 20pt;
+}
+
+.subtitulo{
+    @include fuente($raleway, 16pt, 500);
+    line-height: 25pt;
+    text-align: center;
+    margin-bottom: 15pt;
+}

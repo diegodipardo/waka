@@ -1,0 +1,30 @@
+$naranja:rgb(251, 158, 27);
+$crema:#FFCE8C; 
+// #FFCE8C
+
+$verdeAgua: #99FFEC;
+$verdeMusgo: #466B64;
+$violeta: #40498F;
+$violetaOscuro: #2d3469;
+$lila: #808FFF;
+
+$blanco: rgb(252, 255, 240);
+$gris:rgb(53,53,53);
+$negro: rgb(0,0,0);
+$azul: rgb(6, 48, 112);
+$verde: rgb(6, 153, 50);
+$rojo: rgb(194, 7, 7);
+
+
+/* Degradados */
+.degradadoFooter{
+    background-image: linear-gradient($gris, $negro);
+}
+
+.degradadoHeader{
+    background-image: linear-gradient($crema, $gris);
+}
+
+.degradadoSecciones{
+    background-image: linear-gradient($blanco, $crema);
+}

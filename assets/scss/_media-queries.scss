@@ -1,0 +1,419 @@
+// MEDIA QUERIES
+/* MEDIA QUERIES*/
+
+/* GRID AREA INDEX */
+/* MEDIA QUERIES */
+/* Mobile */
+@media (max-width: 767px) {
+
+    /* grid */
+    #grillaIndex{
+        display: grid;
+        grid-template-areas:
+                            "header"
+                            "main"
+                            "integrantes"
+                            "quienes" 
+                            "presenta"
+                            "footer";
+        
+    }
+    /* Nombres del grid-template-area */
+    header#index {
+        grid-area: header;
+    }
+    main#index{
+        grid-area: main;
+    }
+    section#integrantes{
+        grid-area:integrantes
+    }
+    section#quienes{
+        grid-area: quienes
+    }
+    section#calendario{
+        grid-area: presenta;
+    }
+    footer#index{
+        grid-area: footer;
+    }
+}
+
+// BOOTSTRAP
+
+.page-header {
+    height: 200vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-filter {
+position: relative;
+}
+
+.main {
+    background: #ffffff;
+    position: relative;
+    z-index: 3;
+}
+
+.main-raised {
+    margin: -550px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (min-width: 768px) and (max-width:990px) {
+
+    /* grid */
+    #grillaIndex{
+        display: grid;
+        grid-template-areas:
+                            "header header header"
+                            "main main main"
+                            "integrantes integrantes integrantes"
+                            "quienes quienes quienes"
+                            "presenta presenta presenta"
+                            "footer footer footer";
+    }
+    /* Nombres del grid-template-area */
+    header#index {
+        grid-area: header;
+    }
+    main#index{
+        grid-area: main;
+    }
+    section#integrantes{
+        grid-area:integrantes;
+    }
+    section#quienes{
+        grid-area: quienes;
+    }
+    section#calendario{
+        grid-area: presenta;
+    }
+    footer#index{
+        grid-area: footer;
+    }
+}
+
+// BOOTSTRAP
+
+.page-header {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-filter {
+position: relative;
+}
+
+.main {
+    background: #ffffff;
+    position: relative;
+    z-index: 3;
+}
+
+.main-raised {
+    margin: -500px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* MEDIA QUERIES */
+/* Desktop */
+@media (min-width: 991px)  {
+
+    /* grid */
+    #grillaIndex{
+        display: grid;
+        grid-template-areas:
+                            "header header header header header"
+                            "main main main main main"
+                            "integrantes integrantes integrantes integrantes integrantes"
+                            "quienes quienes quienes quienes quienes"
+                            "presenta presenta presenta presenta presenta"
+                            "footer footer footer footer footer";
+    }
+    /* Nombres del grid-template-area */
+    header#index {
+        grid-area: header;
+    }
+    main#index{
+        grid-area: main;
+    }
+    section#integrantes{
+        grid-area:integrantes;
+    }
+    section#quienes{
+        grid-area: quienes;
+    }
+    section#calendario{
+        grid-area: presenta;
+    }
+    footer#index{
+        grid-area: footer;
+    }
+}
+
+// BOOTSTRAP
+
+.page-header {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-filter {
+position: relative;
+}
+
+.main {
+    background: #ffffff;
+    position: relative;
+    z-index: 3;
+}
+
+.main-raised {
+    margin: -500px 30px 0px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+/* GRID AREA CONTACTO */
+
+/* MEDIA QUERIES */
+/* Mobile */
+@media (max-width: 767px) {
+
+    /* grid */
+    #grillaContacto{
+        display: grid;
+        grid-template-areas:
+                            "header"
+                            "nav"
+                            "main"
+                            "contacto"
+                            "form" 
+                            "descargas"
+                            "footer";
+    }
+    /* Nombres del grid-template-area */
+    header#contacto {
+        grid-area: header;
+    }
+    nav#contacto{
+        grid-area: nav;
+    }
+    main#contacto{
+        grid-area: main;
+    }
+    section#contacto{
+        grid-area:contacto;
+    }
+    section#form{
+        grid-area: form;
+    }
+    section#descargas{
+        grid-area: descargas;
+    }
+    footer#contacto{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (min-width: 768px) and (max-width:990px) {
+
+    /* grid */
+    #grillaContacto{
+        display: grid;
+        grid-template-areas:
+                            "header header"
+                            "nav nav"
+                            "main main"
+                            "contacto form"
+                            "descargas descargas"
+                            "footer footer";
+}
+    /* Nombres del grid-template-area */
+    header#contacto {
+        grid-area: header;
+    }
+    nav#contacto{
+        grid-area: nav;
+    }
+    main#contacto{
+        grid-area: main;
+    }
+    section#contacto{
+        grid-area:contacto;
+    }
+    section#form{
+        grid-area: form;
+    }
+    section#descargas{
+        grid-area: descargas;
+    }
+    footer#contacto{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Desktop */
+@media (min-width: 991px)  {
+
+    /* grid */
+    #grillaContacto{
+        display: grid;
+        grid-template-areas:
+                            "header header header"
+                            "nav nav nav"
+                            "main main main"
+                            "contacto form descargas"
+                            "footer footer footer";
+    }
+    /* Nombres del grid-template-area */
+    header#contacto {
+        grid-area: header;
+    }
+    nav#contacto{
+        grid-area: nav;
+    }
+    main#contacto{
+        grid-area: main;
+    }
+    section#contacto{
+        grid-area:contacto;
+    }
+    section#form{
+        grid-area: form;
+    }
+    section#descargas{
+        grid-area: descargas;
+    }
+    footer#contacto{
+        grid-area: footer;
+    }
+}
+
+
+/* GRID AREA AGENDA */
+
+/* MEDIA QUERIES */
+/* Mobile */
+@media (max-width: 767px) {
+
+    /* grid */
+    #grillaAgenda{
+        display: grid;
+        grid-template-areas:
+                            "header"
+                            "nav"
+                            "main"
+                            "fechaElegida"
+                            "footer";
+    }
+    /* Nombres del grid-template-area */
+    header#agenda {
+        grid-area: header;
+    }
+    nav#agenda{
+        grid-area: nav;
+    }
+    main#agenda{
+        grid-area: main;
+    }
+    section#fechaElegida{
+        grid-area: fechaElegida;
+    }
+    footer#agenda{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Tablet */
+@media (min-width: 768px) and (max-width:990px) {
+
+    /* grid */
+    #grillaAgenda{
+        display: grid;
+        grid-template-areas:
+                            "header header"
+                            "nav nav"
+                            "main main"
+                            "fechaElegida fechaElegida"
+                            "footer footer";
+}
+    /* Nombres del grid-template-area */
+    header#agenda {
+        grid-area: header;
+    }
+    nav#agenda{
+        grid-area: nav;
+    }
+    main#agenda{
+        grid-area: main;
+    }
+    section#fechaElegida{
+        grid-area: fechaElegida;
+    }
+    footer#agenda{
+        grid-area: footer;
+    }
+}
+
+/* MEDIA QUERIES */
+/* Desktop */
+@media (min-width: 991px)  {
+
+    /* grid */
+    #grillaAgenda{
+        display: grid;
+        grid-template-areas:
+                            "header header header header"
+                            "nav nav nav nav"
+                            "main main main main"
+                            "fechaElegida fechaElegida fechaElegida fechaElegida"
+                            "footer footer footer footer";
+        align-self: center;
+    }
+    /* Nombres del grid-template-area */
+    header#agenda {
+        grid-area: header;
+    }
+    nav#agenda{
+        grid-area: nav;
+    }
+    main#agenda{
+        grid-area: main;
+    }
+    section#fechaElegida{
+        grid-area: fechaElegida;
+    }
+    footer#agenda{
+        grid-area: footer;
+    }
+}

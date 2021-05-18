@@ -1,0 +1,353 @@
+$ancho: 100%;
+$formulario: letras;
+
+* {
+    Margin:0;
+    text-align: center;
+}
+
+/* Items del Nav en línea horizontal */
+/* color rgb al fondo de barra de navegación que está en header - saco viñetas - 
+padding 10px bottom y top - interlineado 20px */
+nav {
+    ul{
+        background-color: $gris;
+        list-style-type: none;
+        padding: 10px 0px;
+        line-height: 20px;
+    }
+    li{
+        display: inline-block;
+        width: $ancho/6.666;
+        position:relative;
+        color: $gris; 
+        font-family: bevan;
+        font-variant: all-small-caps ;
+        font-size: 25px;
+        text-align: start;
+        width: 100%;
+    }
+    a{
+        color: $blanco; 
+        text-decoration: none;
+    }
+}
+
+/* Nav Hover */
+.customHover a:hover {
+    color: $naranja;
+    font-weight: 600;
+    padding: 2px;
+}
+
+/* Próximas presentaciones recuadros  */
+section {
+    padding: 20px;
+    article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.section__article--margin{
+    padding: 15px;
+    margin: 5px;
+}
+
+.section__article--redondeado{
+    border-radius: 10px;
+    border: 4px solid $crema;
+    padding: 15px;
+    margin: 5px;
+
+}
+
+.section--margin{
+    padding: 15px;
+    margin: 29px;
+}
+
+/* sección naranja - interlineado 20px */
+.naranja {
+    background-color: $crema; 
+    line-height: 20px;
+}
+
+/* Ver mas */
+button{
+    background-color:$blanco;
+    color: $naranja;
+    padding: 10px;
+    border:none;
+    font-weight: 700;
+        a{
+            color: $naranja;
+            :hover {
+                    background-color:$naranja;
+                    color: $blanco;
+                    padding: 10px;
+                    border:none;
+                    font-weight: 700;
+                    }
+        }
+    }
+
+/* texto centrado - fondo color naranja (rgb) - color de texto crema */
+.boton{
+    text-align: center;
+    background-color: $gris; 
+    color: $blanco;
+}
+
+/* Margen a los campos de Formulario */
+form div{
+    margin: 5px;
+}
+
+
+/* Footer: fondo color rojo (rgb) - color de texto crema - 
+padding 10px bottom y top - interlineado 30px*/
+footer{
+    background-color: $gris;
+    color: $blanco;    
+    a{
+        color: $blanco; 
+    }
+    ul{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.footer{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ul__li--linea {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+
+
+/* Listas ordenadas - numeración romana Mayúsculas */
+.listas{
+    list-style-type: upper-roman;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+
+/* Listas desordenadas - Viñeta de imagen */
+.listas--img{
+    list-style-image: url("../../images/drum.png");
+}
+
+/* imagen viñeta Facebook */
+.listas--facebook{
+    list-style-image: url("../../images/facebook.png");
+}
+
+/* imagen viñeta Instagram */
+.listas--instagram{
+    list-style-image: url("../../images/instagram.png");
+}
+
+/* imagen viñeta Youtube */
+.listas--youtube{
+    list-style-image: url("../../images/youtube.png");
+}
+
+/* Imagenes descargas */
+.descargasImg{
+    display: inline-block;
+    border-radius: 25px;
+    position:relative;
+    padding: 10px;
+}
+
+    /* Imagen principal al ancho de pantalla */
+    .img{
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+/* Flexbox para galería */
+.galeriaFlexbox{
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    column-gap: 10px;
+}
+
+/* Flexbox integrantes */
+.integranteFlexbox{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 20px;
+    height: 100%;
+    justify-content: space-around;
+}
+
+/* entradas - cuadro centrado - fondo color crema */
+.entradas{
+    display: flex;
+    justify-content: center;
+    background-color: $blanco;
+}
+
+
+// BOOTSTRAP
+/*BOOTSTRAP*/
+/* NAV BAR */
+.navbarCustom{
+    background-color:transparent;
+}
+
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+display: block;
+}
+
+.thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.colorNav{
+    background-color: $crema;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $violeta;
+    border-color: $violeta;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+color: #fff;
+background-color: $violetaOscuro;
+border-color: $violetaOscuro;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+box-shadow: none, 0 0 0 0.2rem rgba(156, 39, 176, 0.5);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+color: #fff;
+background-color: $violeta;
+border-color: $violeta;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show>.btn-primary.dropdown-toggle {
+color: #fff;
+background-color: $violeta;
+border-color: $violeta;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+box-shadow: none, 0 0 0 0.2rem rgba(156, 39, 176, 0.5);
+}
+
+.btn.btn-round {
+    border-radius: 30px;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: $violeta;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.btn-link:hover {
+color: $violetaOscuro;
+text-decoration: underline;
+background-color: transparent;
+border-color: transparent;
+}
+
+.btn-link:focus,
+.btn-link.focus {
+text-decoration: underline;
+border-color: transparent;
+box-shadow: none;
+}
+
+.btn-link:disabled,
+.btn-link.disabled {
+color: #999;
+}
+
+.html.w-mod-touch * {
+background-attachment: scroll;
+}
+
+
+.animaTexto {
+    transform: translate3d(0px, 50px, 0px) 
+    scale3d(1, 1, 1) 
+    rotateX(0deg) 
+    rotateY(0deg) 
+    rotateZ(0deg) 
+    skew(0deg,0deg);
+    transform-style: preserve-3d;
+    opacity: 0;
+} 
+
+.animaTexto {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px) 
+    scale3d(1, 1, 1) 
+    rotateX(0deg) 
+    rotateY(0deg) 
+    rotateZ(0deg) 
+    skew(0deg,0deg);
+    transform-style: preserve-3d;
+}
+
+// EFECTO TRASLADAR HACIA ARRIBA IMAGENES Y TEXTO
+.fadeTop {
+    opacity: 0; 
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+
+.fadeRight {
+opacity: 0;
+transform: translate(10vh, 0vh);
+transition: all 1s;
+}
+
+.fadeLeft {
+opacity: 0;
+transform: translate(-10vh, 0vh);
+transition: all 1s;
+}
+    
+.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+

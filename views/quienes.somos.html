@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <!-- Estilos -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/estilos.css ">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
   </head>
   <body>
     <header id="index"> 
@@ -52,108 +52,459 @@
         <p> El lenguaje de ritmo y percusión con señas es un lenguaje de expresión, configuración gestoespacial y percepción visual creado por Santiago Vázquez, que está basado en la improvisación grupal mediante alrededor de 150 señas realizadas con las manos y el cuerpo, un director o directora puede coordinar el flujo de la improvisación convirtiendo a la suma de las ideas individuales en una verdadera composición colectiva.           
         </p>
     </section>
-    <!-- Integrantes - Flexbox -->
-    <section> 
-        <h2>Integrantes</h2>
-        <div class="integranteFlexbox">
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./joaquin-echave.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Joaquín Echave"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Joaquín Echave</div>
+    <!-- MODAL -->
+    <section>
+      <h2>Integrantes</h2>
+        <div id="thumblist"> 
+          <!-- Joaquin Echave -->
+          <a href="#image1">
+            <img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image1" class="lightbox"> 
+            <div class="modalFondo" >
+              <a href="#image12"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="joaquin" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#joaquin" data-slide-to="0" class="active"></li>
+                  <li data-target="#joaquin" data-slide-to="1"></li>
+                  <li data-target="#joaquin" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
+              </div>
+              <p class="nombreIntegrante">Joaquín Echave Lladó</p>
+              <p class="description">
+                Djembe y lo que venga. Desde muy chico encontró refugio, consuelo y sentido en la música. Su primera percusión fue el banco de la escuela, que pronto mutaría en una batería con 2 platillos y con ella, la experiencia de ensayar, componer, pegar afiches y tocar en vivo con bandas. En algún momento quiso cambiar el mundo, o su país al menos, y entendió que para ello primero debía “conocer” o comprender aquello que pretendía cambiar. Se recibió como sociólogo y más pronto que tarde aunque en realidad de trasnoche, se dio cuenta que a quien no conocía y no podía cambiar, era así mismo. Del pelo largo de sus épocas de heavy hasta su incipiente calva de hoy, el hilo conductor de su trajín es la búsqueda de mayor libertad, conexión y fluir a través de la música. Algo que con les wakas expresa su hondura y el calor de lo que se comparte con amor.
+              </p> 
+            </div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image2"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Federico Duffó -->
+          <a href="#image2"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image2" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image1"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="fede" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#fede" data-slide-to="0" class="active"></li>
+                  <li data-target="#fede" data-slide-to="1"></li>
+                  <li data-target="#fede" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
+              </div>
+              <p class="nombreIntegrante">Federico Duffó</p>
+              <p class="aliasIntegrante"> alias "La Cobra"</p>
+              <p class="description">
+                Maraquero en Chew mülli Waka. Ritmo y sabor.
+                Abogado laboralista. Amante del blues.
+                Músico de alma. El que piensa pierde.
+                Baterista de "Cuidado con el perro" y "Los Mariscales del Tiempo". Armonisista de "Los Vikingos blues band"
+              </p>
+              <p class="fraseIntegrante"> Me gustan las cosas simples,¿para qué más? </p> 
+            </div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image3"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Eduardo Nicolas Cagnone -->
+          <a href="#image3"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image3" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image2"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="eduardo" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#eduardo" data-slide-to="0" class="active"></li>
+                  <li data-target="#eduardo" data-slide-to="1"></li>
+                  <li data-target="#eduardo" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
+              </div>
+              <p class="nombreIntegrante">Eduardo Nicolas Cagnone Kurcumelis</p>
+              <p class="description">
+                Shekerista. Agricultor de ley. Me gusta comer rico y vegetariano mientras me tomo un vino, con un hogar a leña prendido, escuchando “Dark side of the moon”. Odontologo. Acuariano ♒️ con ascendente en piscis ♓️. Amo el invierno y me aburro fácil. Fotógrafo encubierto.
+              </p> 
+            </div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image4"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Sofía de Ariztimuño -->
+          <a href="#image4"><img src="../images/sofi-ariztimuño-2.jpg" class="thumb" alt="Sofía de Ariztimuño"/></a>
+          <div id="image4" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image3"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="sofi" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#sofi" data-slide-to="0" class="active"></li>
+                  <li data-target="#sofi" data-slide-to="1"></li>
+                  <li data-target="#sofi" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+              <div class="carousel-inner mt-3">
+                <div class="carousel-item active">
+                  <img src="../images/sofi-ariztimuño-3.jpg" alt="Tocando el sourdo al aire libre">
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/sofi-ariztimuño-2.jpg" alt="tocando las congas en la calle">
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/sofi-ariztimuño-1.jpg" alt="en casa">
+                </div>
               </div>
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./federico-duffo.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Federico Duffó"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Federico Duffó</div>
+              <p class="nombreIntegrante">Sofía de Ariztimuño</p>
+              <p class="description">
+                En Chew Muli Waka toco el sourdo y soy zurda. Mi mente planea bastante alto, lejos (ascendente y luna en géminis ♊). El sourdo me baja a tierra (virgo ♍ es mi signo solar), me facilita el orden y el pulso a través del ritmo, por lo que es mi aliado y complemento.  
+                Estudíe piano en conservatorio y disfruto mucho cantar intuitivamente.
+                Nutricionista, con orientación Ayurveda e integrando la meditación a la alimentación consciente.
+              </p> 
+              <p class="fraseIntegrante">Compartir en grupo el lenguaje de percusión por señas es sin dudas una forma más de nutrirnos.</p> 
+            </div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image5"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Sebastián Di Pardo -->
+          <a href="#image5"><img src="../images/seba-dipardo-mini2.jpg" class="thumb" alt="Sebastián Di Pardo"/></a>
+          <div id="image5" class="lightbox">
+            <div class="modalFondo">
+              <a href="#image4"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="sebas" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#sebas" data-slide-to="0" class="active"></li>
+                  <li data-target="#sebas" data-slide-to="1"></li>
+                  <li data-target="#sebas" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+              <div class="carousel-inner mt-3">
+                <div class="carousel-item active">
+                  <img src="../images/seba-dipardo-mini.jpg" alt="Alentando a los participantes del show callejero, con los brazos en alto y con la trompeta en la mano">
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/seba-dipardo-mini2.jpg" alt="Tocando las congas al aire libre">
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/seba-dipardo-mini3.jpg" alt="Tocando trompeta en un casamiento en la India, con un traje a rayas blancas y negras">
+                </div>
               </div>
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./eduardo-cagnone.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Eduardo Nicolás Cagnone"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Eduardo Nicolás Cagnone</div>
-              </div>
+              <p class="nombreIntegrante">Sebastián Di Pardo</p>
+              <p class="description">
+                Toca la trompeta desde la primaria, pero su amor por los parches lo tiene desde la panza. Profesor, Licenciado, viajero y le encanta menear. La meditación Kundalini y las prácticas chamánicas lo mantienen en eje.
+              </p>
+              <p class="description"> 
+                En Wakas toca las Congas y la Trompeta. Formó parte de Orquestas Sinfónicas tocando en el Teatro Colón, Coliseo y Avenida, entre otros.
+              </p>
+              <p class="description">
+                Fué integrante de bandas de música popular de toda índole como Riddim (Reggae), La Konga (Cuarteto), Café Tacuba (México), Juanes (Colombia), La Nueva Luna (Cumbia), The Beats (Mejor banda Beatle en Inglaterra), Amy el Tributo (Tributo a Amy Winehouse en el Teatro Maipo), Grupo Red (Cumbia) , Sonora Tropicana (Mexico, Cumbia) y Sonora Skandalo (México, Cumbia).
+              </p>
+              <p class="description">
+                Trabajó para Bollywood y casamientos Hindúes en India. Es integrante de Desmadre Orkesta, banda con la cual recorrió más de 15 países y 3 continentes.
+              </p>
+
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./sofia-de-ariztimuno.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Sofía de Ariztimuño"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Sofía de Ariztimuño</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image6"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Florencia Cagnone -->
+          <a href="#image6"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image6" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image5"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="flor" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#flor" data-slide-to="0" class="active"></li>
+                  <li data-target="#flor" data-slide-to="1"></li>
+                  <li data-target="#flor" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Flor Cagnone</p>
+              <p class="description">
+                En el ensamble toco principalmente los Bongó, pero de vez en cuando necesito mover el cuerpito así que acompaño con los huevitos. Bailo desde los 6 años, Profesora, Licenciada en Danza Teatro, Terapeuta en Shiatsu y diferentes tipos de técnicas de sanación energética y Facilitadora de círculo de mujeres. Suelo andar mucho volando por los aires, la percusión fue y es una gran herramienta para bajar a tierra. Bajar a tierra la materia, las ideas, las emociones y los sentires. 
+              </p>
+              <p class="fraseIntegrante"> El cuerpo se mueve por la música y la música se mueve por nuestros cuerpos. </p> 
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./sebastian-dipardo.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Sebastián Di Pardo"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Sebastián Di Pardo</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image7"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Soledad Bernal -->
+          <a href="#image7"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image7" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image6"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="sole" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#sole" data-slide-to="0" class="active"></li>
+                  <li data-target="#sole" data-slide-to="1"></li>
+                  <li data-target="#sole" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Soledad Bernal</p>
+              <p class="description">
+                Djembe y lo que venga. Desde muy chico encontró refugio, consuelo y sentido en la música. Su primera percusión fue el banco de la escuela, que pronto mutaría en una batería con 2 platillos y con ella, la experiencia de ensayar, componer, pegar afiches y tocar en vivo con bandas. En algún momento quiso cambiar el mundo, o su país al menos, y entendió que para ello primero debía “conocer” o comprender aquello que pretendía cambiar. Se recibió como sociólogo y más pronto que tarde aunque en realidad de trasnoche, se dio cuenta que a quien no conocía y no podía cambiar, era así mismo. Del pelo largo de sus épocas de heavy hasta su incipiente calva de hoy, el hilo conductor de su trajín es la búsqueda de mayor libertad, conexión y fluir a través de la música. Algo que con les wakas expresa su hondura y el calor de lo que se comparte con amor.
+              </p> 
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./florencia-cagnone.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Florencia Cagnone"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Florencia Cagnone</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image8"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Emilio Perez Di Paula -->
+          <a href="#image8"></a><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image8" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image7"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="emilio" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#emilio" data-slide-to="0" class="active"></li>
+                  <li data-target="#emilio" data-slide-to="1"></li>
+                  <li data-target="#emilio" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Emilio Perez Di Paula</p>
+              <p class="description">
+                Djembe y lo que venga. Desde muy chico encontró refugio, consuelo y sentido en la música. Su primera percusión fue el banco de la escuela, que pronto mutaría en una batería con 2 platillos y con ella, la experiencia de ensayar, componer, pegar afiches y tocar en vivo con bandas. En algún momento quiso cambiar el mundo, o su país al menos, y entendió que para ello primero debía “conocer” o comprender aquello que pretendía cambiar. Se recibió como sociólogo y más pronto que tarde aunque en realidad de trasnoche, se dio cuenta que a quien no conocía y no podía cambiar, era así mismo. Del pelo largo de sus épocas de heavy hasta su incipiente calva de hoy, el hilo conductor de su trajín es la búsqueda de mayor libertad, conexión y fluir a través de la música. Algo que con les wakas expresa su hondura y el calor de lo que se comparte con amor.
+              </p> 
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./soledad-bernal.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Soledad Bernal"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Soledad Bernal</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image9"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Marcelo Neri -->
+          <a href="#image9"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image9" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image8"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="chelo" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#chelo" data-slide-to="0" class="active"></li>
+                  <li data-target="#chelo" data-slide-to="1"></li>
+                  <li data-target="#chelo" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Marcelo Neri</p>
+              <p class="aliasIntegrante"> Alias Chelo, Chelito, Dolcello. </p>
+              <p class="description">
+                Un cuerpo de koala pequeño pero manija de elefante. Turista del planeta Tierra. Escucho, hago y siento la música desde que tengo pensamientos. Compositor autodidacta sin estudios, simplemente lo que me sale. Integro la seccion de agudos de Chew mulli Waka, principalmente accesorios y guitarra/sinte en melodicos. En un constante proceso de autodescubrimiento para ganarle al miedo, que agradezco todos los días a los Wakas por ayudarme.
+              </p> 
+              <p class="fraseIntegrante">- A veces vendo cosas. ♎ Libriano hasta la médula; el Delicado Equilibrio.-</p>
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./emilio-perez-dipaula.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Emilio Perez Di Paula"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Emilio Perez Di Paula</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image10"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+          
+          <!-- Danisa Tristant -->
+          <a href="#image10"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image10" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image9"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="dana" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#dana" data-slide-to="0" class="active"></li>
+                  <li data-target="#dana" data-slide-to="1"></li>
+                  <li data-target="#dana" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Danisa Tristant</p>
+              <p class="aliasIntegrante"> Dana 👽🌿♒ </p>
+              <p class="description">
+                La novata del ensamble! con la curiosidad que me compone llegué al mundo Waka para darme el gusto y la oportunidad de experimentar en el mundo de la música y la percusión, que me gusta tanto. Sin experiencia musical más que jugando a veces a tocar algunos acordes en la guitarra y cantando profesionalmente en la ducha, la música siempre estuvo y es parte esencial de mi vida. Siendo hija de un Disc Jockey entrené el oído desde pequeña y si bien mi manera de manifestarlo fue siempre a través de la danza y el movimiento, hoy siento ganas de ampliar mis capacidades y de compartirlas en grupo. Tengo la suerte de que mis compañerxs son gente con mucha paciencia y buena onda, que me ayudan, guían y animan a disfrutar del proceso, desde aquella primera vez en la que tímidamente agarré una pandereta. 
+              </p>
+              <p class="description">
+                Hoy exploro un poco con el bongo pero como buena acuariana que soy no me puedo quedar quieta así que voy cada tanto rotando entre los instrumentos medios, graves y agudos, descubriendo que posibilidades y sensaciones hay en ellos y en mí. Creo que estoy en la búsqueda de mi instrumento...o quizás sea una especie de comodín mutante! quién sabe? 🐮💚
+              </p> 
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./marcelo-neri.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Marcelo Neri"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Marcelo Neri</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image11"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Mariano Cambiasso -->
+          <a href="#image11"><img src="../images/integrante-grande.png" class="thumb" alt="cambiar"/></a>
+          <div id="image11" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image10"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="mariano" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#mariano" data-slide-to="0" class="active"></li>
+                  <li data-target="#mariano" data-slide-to="1"></li>
+                  <li data-target="#mariano" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/integrante-grande.png" alt="cambiar">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Mariano Cambiasso</p>
+              <p class="description">
+                Djembe y lo que venga. Desde muy chico encontró refugio, consuelo y sentido en la música. Su primera percusión fue el banco de la escuela, que pronto mutaría en una batería con 2 platillos y con ella, la experiencia de ensayar, componer, pegar afiches y tocar en vivo con bandas. En algún momento quiso cambiar el mundo, o su país al menos, y entendió que para ello primero debía “conocer” o comprender aquello que pretendía cambiar. Se recibió como sociólogo y más pronto que tarde aunque en realidad de trasnoche, se dio cuenta que a quien no conocía y no podía cambiar, era así mismo. Del pelo largo de sus épocas de heavy hasta su incipiente calva de hoy, el hilo conductor de su trajín es la búsqueda de mayor libertad, conexión y fluir a través de la música. Algo que con les wakas expresa su hondura y el calor de lo que se comparte con amor.
+              </p> 
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./danisa-tristant.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Danisa Tristant"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Danisa Tristant</div>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image12"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+
+          <!-- Lalo Ruffini -->
+          <a href="#image12"><img src="../images/lalo-ruffini-2.jpg" class="thumb" alt="Lalo Ruffini"/></a>
+          <div id="image12" class="lightbox">
+            <div class="modalFondo" >
+              <a href="#image11"><img src="../images/left.png" class="previous" alt="anterior"/></a>
+              <!-- Carousel del integrante -->
+              <div id="lalo" class="carousel slide" data-ride="carousel">
+                <!-- Indicadores -->
+                <ul class="carousel-indicators">
+                  <li data-target="#lalo" data-slide-to="0" class="active"></li>
+                  <li data-target="#lalo" data-slide-to="1"></li>
+                  <li data-target="#lalo" data-slide-to="2"></li>
+                </ul>
+                <!-- Fotos Carousel -->
+                <div class="carousel-inner mt-3">
+                  <div class="carousel-item active">
+                    <img src="../images/lalo-ruffini-1.jpg" alt="Tocando el Flugel">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/lalo-ruffini-2.jpg" alt="Haciendo caras">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/lalo-ruffini-3.jpg" alt="Tocando la trompeta">
+                  </div>
+                </div>
               </div>
+              <p class="nombreIntegrante">Lalo Ruffini</p>
+              <p class="description">
+                Djembe y lo que venga. Desde muy chico encontró refugio, consuelo y sentido en la música. Su primera percusión fue el banco de la escuela, que pronto mutaría en una batería con 2 platillos y con ella, la experiencia de ensayar, componer, pegar afiches y tocar en vivo con bandas. En algún momento quiso cambiar el mundo, o su país al menos, y entendió que para ello primero debía “conocer” o comprender aquello que pretendía cambiar. Se recibió como sociólogo y más pronto que tarde aunque en realidad de trasnoche, se dio cuenta que a quien no conocía y no podía cambiar, era así mismo. Del pelo largo de sus épocas de heavy hasta su incipiente calva de hoy, el hilo conductor de su trajín es la búsqueda de mayor libertad, conexión y fluir a través de la música. Algo que con les wakas expresa su hondura y el calor de lo que se comparte con amor.
+              </p> 
             </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./mariano-cambiasso.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Mariano Cambiasso"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Mariano Cambiasso</div>
-              </div>
-            </div>
-          </a>
-          <a class="container col-lg-3 col-md-4 col-sm-2" href="./fermin-echave.html">
-            <img class="image" src="../images/integrante-grande.png" alt="Fermín Echave"> 
-            <div>
-              <div class="overlay">
-                <div class="text">Fermín Echave</div>
-              </div>
-            </div>
-          </a>
+            <a href="#_"><img src="../images/close.png" class="exit" alt="cerrar"/></a>
+            <a href="#image1"><img src="../images/right.png" class="next" alt="siguiente"/></a>
+          </div>
+          
         </div>
     </section>
+
     <!-- Pie de página -->
     <footer class="degradadoFooter"> 
       <div>
@@ -171,5 +522,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../assets/js/script.js"></script>
   </body>
 </html>
