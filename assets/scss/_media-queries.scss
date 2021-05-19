@@ -422,8 +422,29 @@ position: relative;
 /* 100% Imagen galeria en dispositivos pequeños*/
 @media only screen and (max-width: 700px){
     .anchoGaleria {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
+        width: 80%;
+
     }
-  }
+    .thumb {
+        display: inline;
+        max-height: 300px;
+        margin-left: 0%;
+        margin-right: 0%;
+        }
+    .modalFondo{
+        position: sticky;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 3%;
+        width: 100%;
+        background-color: $blanco;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0.3rem;
+        outline: 0;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+    }
