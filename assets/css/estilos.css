@@ -287,6 +287,11 @@ footer {
   opacity: 1;
   transform: translate(0, 0); }
 
+.altoImg {
+  width: 100%;
+  max-width: 400px;
+  height: auto; }
+
 /*color RGB de fondo al body - fuente: Questrial*/
 body {
   background-color: #fcfff0;
@@ -599,6 +604,13 @@ p {
     grid-area: fechaElegida; }
   footer#agenda {
     grid-area: footer; } }
+
+/* 100% Imagen galeria en dispositivos pequeños*/
+@media only screen and (max-width: 700px) {
+  .anchoGaleria {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%; } }
 
 /* ANIMACIONES*/
 /* ANIMACIÓN ROTAR*/

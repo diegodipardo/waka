@@ -417,3 +417,13 @@ position: relative;
         grid-area: footer;
     }
 }
+
+
+/* 100% Imagen galeria en dispositivos pequeños*/
+@media only screen and (max-width: 700px){
+    .anchoGaleria {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
