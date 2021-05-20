@@ -401,8 +401,8 @@ body a {
 #thumblist img {
   border-radius: 8px; }
 
-.description {
-  color: #fcfff0;
+.description, .descriptionGaleria {
+  color: #063070;
   text-decoration: none;
   max-width: 80%;
   text-align: center;
@@ -464,6 +464,9 @@ body a {
   right: 4px;
   top: 40%;
   width: 40px; }
+
+.descriptionGaleria {
+  color: #fcfff0; }
 
 /* MEDIA QUERIES*/
 /* GRID AREA INDEX */

@@ -33,7 +33,7 @@ body a {
     border-radius: 8px;
     }
     .description {
-    color: $blanco;
+    color: $azul;
     text-decoration: none;
     max-width: 80%;
     text-align: center;
@@ -99,3 +99,7 @@ body a {
     width: 40px;
     }
 
+.descriptionGaleria{
+    @extend .description;
+    color: $blanco;
+}
