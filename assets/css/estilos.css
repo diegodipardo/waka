@@ -476,7 +476,7 @@ body a {
   /* grid */
   #grillaIndex {
     display: grid;
-    grid-template-areas: "header" "main" "integrantes" "quienes"  "presenta" "footer"; }
+    grid-template-areas: "header" "main" "integrantes" "ensayo" "footer"; }
   /* Nombres del grid-template-area */
   header#index {
     grid-area: header; }
@@ -484,10 +484,8 @@ body a {
     grid-area: main; }
   section#integrantes {
     grid-area: integrantes; }
-  section#quienes {
-    grid-area: quienes; }
-  section#calendario {
-    grid-area: presenta; }
+  section#soundclous {
+    grid-area: ensayo; }
   footer#index {
     grid-area: footer; } }
 
@@ -520,7 +518,7 @@ body a {
   /* grid */
   #grillaIndex {
     display: grid;
-    grid-template-areas: "header header header" "main main main" "integrantes integrantes integrantes" "quienes quienes quienes" "presenta presenta presenta" "footer footer footer"; }
+    grid-template-areas: "header header header" "main main main" "integrantes integrantes integrantes" "ensayo ensayo ensayo" "footer footer footer"; }
   /* Nombres del grid-template-area */
   header#index {
     grid-area: header; }
@@ -528,10 +526,8 @@ body a {
     grid-area: main; }
   section#integrantes {
     grid-area: integrantes; }
-  section#quienes {
-    grid-area: quienes; }
-  section#calendario {
-    grid-area: presenta; }
+  section#soundcloud {
+    grid-area: ensayo; }
   footer#index {
     grid-area: footer; } }
 
@@ -564,7 +560,7 @@ body a {
   /* grid */
   #grillaIndex {
     display: grid;
-    grid-template-areas: "header header header header header" "main main main main main" "integrantes integrantes integrantes integrantes integrantes" "quienes quienes quienes quienes quienes" "presenta presenta presenta presenta presenta" "footer footer footer footer footer"; }
+    grid-template-areas: "header header header header header" "main main main main main" "integrantes integrantes integrantes integrantes integrantes" "ensayo ensayo ensayo ensayo ensayo" "footer footer footer footer footer"; }
   /* Nombres del grid-template-area */
   header#index {
     grid-area: header; }
@@ -572,10 +568,8 @@ body a {
     grid-area: main; }
   section#integrantes {
     grid-area: integrantes; }
-  section#quienes {
-    grid-area: quienes; }
-  section#calendario {
-    grid-area: presenta; }
+  section#soundcloud {
+    grid-area: ensayo; }
   footer#index {
     grid-area: footer; } }
 
@@ -609,12 +603,10 @@ body a {
   /* grid */
   #grillaContacto {
     display: grid;
-    grid-template-areas: "header" "nav" "main" "contacto" "form"  "descargas" "footer"; }
+    grid-template-areas: "header" "main" "contacto" "form"  "descargas" "footer"; }
   /* Nombres del grid-template-area */
   header#contacto {
     grid-area: header; }
-  nav#contacto {
-    grid-area: nav; }
   main#contacto {
     grid-area: main; }
   section#contacto {
@@ -632,12 +624,10 @@ body a {
   /* grid */
   #grillaContacto {
     display: grid;
-    grid-template-areas: "header header" "nav nav" "main main" "contacto form" "descargas descargas" "footer footer"; }
+    grid-template-areas: "header header" "main main" "contacto form" "descargas descargas" "footer footer"; }
   /* Nombres del grid-template-area */
   header#contacto {
     grid-area: header; }
-  nav#contacto {
-    grid-area: nav; }
   main#contacto {
     grid-area: main; }
   section#contacto {
@@ -655,12 +645,10 @@ body a {
   /* grid */
   #grillaContacto {
     display: grid;
-    grid-template-areas: "header header header" "nav nav nav" "main main main" "contacto form descargas" "footer footer footer"; }
+    grid-template-areas: "header header header" "main main main" "contacto form descargas" "footer footer footer"; }
   /* Nombres del grid-template-area */
   header#contacto {
     grid-area: header; }
-  nav#contacto {
-    grid-area: nav; }
   main#contacto {
     grid-area: main; }
   section#contacto {
@@ -670,65 +658,6 @@ body a {
   section#descargas {
     grid-area: descargas; }
   footer#contacto {
-    grid-area: footer; } }
-
-/* GRID AREA AGENDA */
-/* MEDIA QUERIES */
-/* Mobile */
-@media (max-width: 767px) {
-  /* grid */
-  #grillaAgenda {
-    display: grid;
-    grid-template-areas: "header" "nav" "main" "fechaElegida" "footer"; }
-  /* Nombres del grid-template-area */
-  header#agenda {
-    grid-area: header; }
-  nav#agenda {
-    grid-area: nav; }
-  main#agenda {
-    grid-area: main; }
-  section#fechaElegida {
-    grid-area: fechaElegida; }
-  footer#agenda {
-    grid-area: footer; } }
-
-/* MEDIA QUERIES */
-/* Tablet */
-@media (min-width: 768px) and (max-width: 990px) {
-  /* grid */
-  #grillaAgenda {
-    display: grid;
-    grid-template-areas: "header header" "nav nav" "main main" "fechaElegida fechaElegida" "footer footer"; }
-  /* Nombres del grid-template-area */
-  header#agenda {
-    grid-area: header; }
-  nav#agenda {
-    grid-area: nav; }
-  main#agenda {
-    grid-area: main; }
-  section#fechaElegida {
-    grid-area: fechaElegida; }
-  footer#agenda {
-    grid-area: footer; } }
-
-/* MEDIA QUERIES */
-/* Desktop */
-@media (min-width: 991px) {
-  /* grid */
-  #grillaAgenda {
-    display: grid;
-    grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "fechaElegida fechaElegida fechaElegida fechaElegida" "footer footer footer footer";
-    align-self: center; }
-  /* Nombres del grid-template-area */
-  header#agenda {
-    grid-area: header; }
-  nav#agenda {
-    grid-area: nav; }
-  main#agenda {
-    grid-area: main; }
-  section#fechaElegida {
-    grid-area: fechaElegida; }
-  footer#agenda {
     grid-area: footer; } }
 
 /* 100% Imagen galeria en dispositivos pequeños*/
