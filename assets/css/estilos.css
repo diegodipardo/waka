@@ -398,8 +398,8 @@ p {
   max-width: 80%;
   text-align: center;
   vertical-align: center;
-  margin-left: 10%;
-  margin-right: 10%; }
+  margin-left: 14%;
+  margin-right: 14%; }
 
 body a {
   text-decoration: none; }
@@ -422,8 +422,8 @@ body a {
   max-width: 80%;
   text-align: center;
   vertical-align: center;
-  margin-left: 10%;
-  margin-right: 10%; }
+  margin-left: 14%;
+  margin-right: 14%; }
 
 .modalFondo {
   position: sticky;
@@ -697,7 +697,7 @@ body a {
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.3rem;
     outline: 0;
-    max-height: 90vh;
+    max-height: 95vh;
     overflow-y: auto; }
   .thumbQuienes {
     display: inline;
@@ -708,4 +708,9 @@ body a {
     max-width: 50%;
     max-height: 50%;
     text-align: center;
-    margin-top: 2%; } }
+    margin-top: 2%; }
+  .exit {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px; } }
