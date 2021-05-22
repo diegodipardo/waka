@@ -298,8 +298,7 @@ position: relative;
 /* 100% Imagen galeria en dispositivos pequeños*/
 @media only screen and (max-width: 700px){
     .anchoGaleria {
-        width: 80%;
-
+        max-width: 80%;
     }
     .thumb {
         display: inline;

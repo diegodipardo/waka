@@ -294,7 +294,8 @@ footer {
 
 .minImg {
   width: 85px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin-top: 4px; }
 
 /*color RGB de fondo al body - fuente: Questrial*/
 body {
@@ -667,7 +668,7 @@ body a {
 /* 100% Imagen galeria en dispositivos pequeños*/
 @media only screen and (max-width: 700px) {
   .anchoGaleria {
-    width: 80%; }
+    max-width: 80%; }
   .thumb {
     display: inline;
     max-height: 250px;
