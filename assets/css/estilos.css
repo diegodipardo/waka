@@ -703,4 +703,7 @@ body a {
     display: inline;
     max-height: 350px;
     margin-left: 0%;
-    margin-right: 0%; } }
+    margin-right: 0%; }
+  .imgCar {
+    max-width: 70vw;
+    max-height: 250px; } }
