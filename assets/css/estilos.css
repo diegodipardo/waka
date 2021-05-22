@@ -292,6 +292,10 @@ footer {
   max-width: 400px;
   height: auto; }
 
+.minImg {
+  width: 85px;
+  border-radius: 5px; }
+
 /*color RGB de fondo al body - fuente: Questrial*/
 body {
   background-color: #fcfff0;
