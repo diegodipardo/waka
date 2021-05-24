@@ -324,7 +324,7 @@ position: relative;
     }
     .thumbQuienes {
         display: inline;
-        max-height: 350px;
+        max-width: 350px;
         margin-left: 0%;
         margin-right: 0%;
         }
@@ -360,5 +360,38 @@ position: relative;
     .lightbox2:target { 
         outline: none;
         display: none;
+    }
+    h1{
+        // font-family: 'Raleway', sans-serif;
+        font-family: 'Bevan', cursive;
+        font-size: 30pt;
+        font-weight: 600;
+        line-height: 35pt;
+        color: $violeta;
+        padding-top: 25pt;
+    }
+    .descriptionTexto {
+        color: $azul;
+        text-decoration: none;
+        max-width: 90%;
+        text-align: center;
+        vertical-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        }
+    .subtitulo{
+        @include fuente($raleway, 16pt, 500);
+        line-height: 20pt;
+        text-align: center;
+        margin-bottom: 15pt;
+    }
+    .nombreIntegrante {
+        font-family: 'Bevan', cursive;
+        font-size: 20pt;
+        font-weight: 600;
+        line-height: 25pt;
+        color: $violeta;
+        padding-top: 25pt;
+        letter-spacing: 1px;
     }
     }

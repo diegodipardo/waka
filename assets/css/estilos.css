@@ -307,13 +307,14 @@ body {
   font-family: 'Questrial', sans-serif; }
 
 /* color RGB a los titulares H1 - Interletrado 5pt - padding 5pt bottom y top */
-h1, .nombreIntegrante {
+h1 {
   font-family: 'Bevan', cursive;
   font-size: 40pt;
   font-weight: 600;
-  line-height: 40pt;
+  line-height: 45pt;
   color: #40498F;
-  padding-top: 25pt; }
+  padding-top: 25pt;
+  letter-spacing: 1px; }
 
 /*color RGB a los titulares H2 - padding 5px bottom y top*/
 h2 {
@@ -392,8 +393,13 @@ p {
 
 /* MODAL INTEGRANTES OK*/
 .nombreIntegrante {
-  font-size: 16pt;
-  line-height: 20px; }
+  font-family: 'Bevan', cursive;
+  font-size: 20pt;
+  font-weight: 600;
+  line-height: 25pt;
+  color: #40498F;
+  padding-top: 25pt;
+  letter-spacing: 1px; }
 
 .aliasIntegrante {
   font-family: "Bevan", cursive;
@@ -401,7 +407,9 @@ p {
 
 .fraseIntegrante {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 18pt;
+  line-height: 24pt;
   text-decoration: none;
   max-width: 80%;
   text-align: center;
@@ -427,6 +435,7 @@ body a {
 
 .description, .descriptionGaleria {
   color: #063070;
+  font-size: 16pt;
   text-decoration: none;
   max-width: 80%;
   text-align: center;
@@ -459,7 +468,7 @@ body a {
   text-align: center;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8); }
+  background: rgba(0, 0, 0, 0.9); }
 
 .lightbox img {
   max-width: 60%;
@@ -491,6 +500,15 @@ body a {
 
 .descriptionGaleria {
   color: #fcfff0; }
+
+.descriptionTexto {
+  color: #063070;
+  text-decoration: none;
+  max-width: 90%;
+  text-align: center;
+  vertical-align: center;
+  margin-left: 10%;
+  margin-right: 10%; }
 
 .lightbox2 {
   display: none;
@@ -749,7 +767,7 @@ body a {
     overflow-y: auto; }
   .thumbQuienes {
     display: inline;
-    max-height: 350px;
+    max-width: 350px;
     margin-left: 0%;
     margin-right: 0%; }
   .lightbox img {
@@ -779,4 +797,34 @@ body a {
     margin-top: 35%; }
   .lightbox2:target {
     outline: none;
-    display: none; } }
+    display: none; }
+  h1 {
+    font-family: 'Bevan', cursive;
+    font-size: 30pt;
+    font-weight: 600;
+    line-height: 35pt;
+    color: #40498F;
+    padding-top: 25pt; }
+  .descriptionTexto {
+    color: #063070;
+    text-decoration: none;
+    max-width: 90%;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 5%;
+    margin-right: 5%; }
+  .subtitulo {
+    font-family: "Raleway", sans-serif;
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: 20pt;
+    text-align: center;
+    margin-bottom: 15pt; }
+  .nombreIntegrante {
+    font-family: 'Bevan', cursive;
+    font-size: 20pt;
+    font-weight: 600;
+    line-height: 25pt;
+    color: #40498F;
+    padding-top: 25pt;
+    letter-spacing: 1px; } }
