@@ -12,8 +12,8 @@
         grid-template-areas:
                             "header"
                             "main"
-                            "integrantes"
                             "ensayo"
+                            "integrantes"
                             "footer";
         
     }
@@ -27,7 +27,7 @@
     section#integrantes{
         grid-area:integrantes
     }
-    section#soundclous{
+    section#soundcloud{
         grid-area: ensayo;
     }
     footer#index{
@@ -75,8 +75,8 @@ position: relative;
         grid-template-areas:
                             "header header header"
                             "main main main"
-                            "integrantes integrantes integrantes"
                             "ensayo ensayo ensayo"
+                            "integrantes integrantes integrantes"
                             "footer footer footer";
     }
     /* Nombres del grid-template-area */
@@ -136,8 +136,8 @@ position: relative;
         grid-template-areas:
                             "header header header header header"
                             "main main main main main"
-                            "integrantes integrantes integrantes integrantes integrantes"
                             "ensayo ensayo ensayo ensayo ensayo"
+                            "integrantes integrantes integrantes integrantes integrantes"
                             "footer footer footer footer footer";
     }
     /* Nombres del grid-template-area */

@@ -557,7 +557,7 @@ body a {
   /* grid */
   #grillaIndex {
     display: grid;
-    grid-template-areas: "header" "main" "integrantes" "ensayo" "footer"; }
+    grid-template-areas: "header" "main" "ensayo" "integrantes" "footer"; }
   /* Nombres del grid-template-area */
   header#index {
     grid-area: header; }
@@ -565,7 +565,7 @@ body a {
     grid-area: main; }
   section#integrantes {
     grid-area: integrantes; }
-  section#soundclous {
+  section#soundcloud {
     grid-area: ensayo; }
   footer#index {
     grid-area: footer; } }
@@ -599,7 +599,7 @@ body a {
   /* grid */
   #grillaIndex {
     display: grid;
-    grid-template-areas: "header header header" "main main main" "integrantes integrantes integrantes" "ensayo ensayo ensayo" "footer footer footer"; }
+    grid-template-areas: "header header header" "main main main" "ensayo ensayo ensayo" "integrantes integrantes integrantes" "footer footer footer"; }
   /* Nombres del grid-template-area */
   header#index {
     grid-area: header; }
@@ -641,7 +641,7 @@ body a {
   /* grid */
   #grillaIndex {
     display: grid;
-    grid-template-areas: "header header header header header" "main main main main main" "integrantes integrantes integrantes integrantes integrantes" "ensayo ensayo ensayo ensayo ensayo" "footer footer footer footer footer"; }
+    grid-template-areas: "header header header header header" "main main main main main" "ensayo ensayo ensayo ensayo ensayo" "integrantes integrantes integrantes integrantes integrantes" "footer footer footer footer footer"; }
   /* Nombres del grid-template-area */
   header#index {
     grid-area: header; }
