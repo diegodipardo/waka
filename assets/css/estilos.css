@@ -354,7 +354,7 @@ p {
 /* ANIMACIONES*/
 .menu-fixed {
   position: fixed;
-  z-index: 1000;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -419,7 +419,8 @@ body a {
 #thumblist {
   text-align: center;
   border-radius: 8px;
-  padding: 0; }
+  padding: 0;
+  z-index: -1; }
 
 #thumblist img {
   border-radius: 8px; }
