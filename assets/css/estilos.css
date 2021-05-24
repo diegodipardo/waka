@@ -767,7 +767,7 @@ body a {
     overflow-y: auto; }
   .thumbQuienes {
     display: inline;
-    max-width: 350px;
+    max-height: 350px;
     margin-left: 0%;
     margin-right: 0%; }
   .lightbox img {
