@@ -18,8 +18,8 @@
   <body>
     <div id="grillaIndex">
       <header id="index"> 
-        <!-- Barra de navegación - Boxmodeling -->      
-        <nav class="navbar navbar-expand-md navbar-light colorNav"> 
+        <!-- Barra de navegación -->      
+        <nav class="navbar navbar-expand-md fixed-top navbar-light colorNav"> 
           <!-- Brand -->
           <a class="navbar-brand" href="./index.html">
             <img id="personajeGrande" src="./images/logo.png" alt="Logo Waka" style="width:100px;">
@@ -41,33 +41,18 @@
         </nav>
       </header>
       <main id="index">
-      <!-- Imagen de Bienvenida -->
-      <div class="page-header header-filter" data-parallax="true" alt="Hola! somos Chew Müli Waka" style="background-image: url('./images/instrumentos.jpg') ;"> </div>
-      <div class="main main-raised">
-        <div class="profile-content">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6 ml-auto mr-auto">
-                <div class="profile">
-                  <h1>Hola! somos Chew Müli Waka</h1>
-                </div>
-              </div>
-            </div>
-            <div class="description text-center">
-            <!-- Quienes somos -->
-            <section> 
-              <h2 class="subtitulo">Chew muli waka es un grupo de percusión por lenguaje de señas que nació en el año 2020 en la ciudad de Chivilcoy, al calor de la pandemia y frente al deseo de conectar, compartir, fluir, liberar y enraizar colectivamente a través de los tambores. </h2>
-              <img id="personajeRota" src="./images/quienes-somos-imagen.png" alt="ilustración de persona rotando"> 
-            </section>
-            </div>
-          </div>
-        </div>
-      </div>
+        <!-- Imagen de Bienvenida -->
+        <div class="page-header header-filter pt-5 mt-5 ps-3" data-parallax="true" alt="Hola! somos Chew Müli Waka" style="background-image: url('./images/instrumentos.jpg') ;"> </div>
+        <h1>Hola! somos Chew Müli Waka</h1>
+        <!-- Quienes somos -->
+        <section class="description text-center"> 
+          <h2 class="subtitulo">Chew muli waka es un grupo de percusión por lenguaje de señas que nació en el año 2020 en la ciudad de Chivilcoy, al calor de la pandemia y frente al deseo de conectar, compartir, fluir, liberar y enraizar colectivamente a través de los tambores. </h2>
+        </section>
       </main>
       <!-- Integrantes -->
       <section id="integrantes" class="main-raise"> 
         <h2>Integrantes</h2>
-          <img class="minImg" src="./images/joaquin-e-chico.jpg" alt="Joaquin Echave"></a>
+          <a id="joaquin" onclick="window.location.href = 'views/quienes.somos.html#integrantes';"> <img class="minImg" src="./images/joaquin-e-chico.jpg" alt="Joaquin Echave"></a> 
           <img class="minImg" src="./images/integrante.png" alt="Federico Duffó">
           <img class="minImg" src="./images/edu-chico.jpg" alt="Eduardo Nicolás Cagnone">
           <img class="minImg" src="./images/sofi-ariztimuño-chico.jpg" alt="Sofía de Ariztimuño">
@@ -83,7 +68,8 @@
       <!-- Próximas presentaciones -->
       <section id="soundcloud" class="container-fluid"> 
         <h2>Audio de Ensayo</h2>
-        <h3>Tema: Portal - Dirección: Flor Cagnone</h3>
+        <h3>Tema: Portal</h3>
+        <h4>Dirección: Flor Cagnone</h4>
         <div class="row ml-5 mr-5">
           <!-- Soundcloud embed -->
           <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1053016432&color=%23fb9e1b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #fcfff0;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/sebasti-n-di-pardo" title="Portal" target="_blank" style="color: #fcfff0; text-decoration: none;">Wakas</a> · <a href="https://soundcloud.com/sebasti-n-di-pardo/portal" title="Portal" target="_blank" style="color: #fcfff0; text-decoration: none;">Portal</a></div>
