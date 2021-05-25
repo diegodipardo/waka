@@ -44,10 +44,13 @@ nav {
 /* Próximas presentaciones recuadros  */
 
 .section__article--margin{
-    padding: 50px;
-    padding-bottom:150px ;
+    padding-top: 50px;
+    padding-bottom:120px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: 32px;
     margin-bottom: 20px;
+    max-width: 95%;
 }
 
 .section__article--redondeado{
@@ -167,12 +170,12 @@ footer{
     padding: 10px;
 }
 
-    /* Imagen principal al ancho de pantalla */
-    .img{
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-    }
+/* Imagen principal al ancho de pantalla */
+.img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
 
 /* Flexbox para galería */
 .galeriaFlexbox{
@@ -364,5 +367,5 @@ transition: all 1s;
 
 .videoTam{
     width: 100%;
-    height: 90%;
+    height: 100%;
 }

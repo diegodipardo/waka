@@ -33,9 +33,7 @@
     footer#index{
         grid-area: footer;
     }
-}
-
-// BOOTSTRAP
+    // BOOTSTRAP
 
 .page-header {
     height: 50vh;
@@ -63,6 +61,9 @@ position: relative;
     border-radius: 6px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
+
+}
+
 
 
 /* MEDIA QUERIES */
@@ -95,9 +96,7 @@ position: relative;
     footer#index{
         grid-area: footer;
     }
-}
-
-// BOOTSTRAP
+    // BOOTSTRAP
 
 .page-header {
     height: 50vh;
@@ -125,6 +124,9 @@ position: relative;
     border-radius: 6px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
+}
+
+
 
 /* MEDIA QUERIES */
 /* Desktop */
@@ -156,8 +158,7 @@ position: relative;
     footer#index{
         grid-area: footer;
     }
-}
-
+    
 // BOOTSTRAP
 
 .page-header {
@@ -186,6 +187,8 @@ position: relative;
     border-radius: 6px;
     box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
 }
+}
+
 
 /* GRID AREA CONTACTO */
 
@@ -402,12 +405,14 @@ position: relative;
     }
     .videoTam{
         width: 100%;
-        height: 25%;
+        height: 15%;
     }
     .section__article--margin{
-        padding: 50px;
-        padding-bottom:80px ;
-        margin: 8px;
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom:20px;
+        margin: 24px;
         margin-bottom: 20px;
     }
-    }
+}

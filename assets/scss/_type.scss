@@ -90,3 +90,13 @@ p{
     margin-bottom: 5pt;
     color: $violetaOscuro;
 }
+
+.subtitulo4{
+    @include fuente($raleway,12pt, 500);
+    line-height: 20pt;
+    text-align: center;
+    padding: 0pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    color: $azul;
+}
