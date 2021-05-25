@@ -72,4 +72,21 @@ p{
     margin-bottom: 15pt;
 }
 
+.subtitulo2{
+    @include fuente($raleway,20pt, 800);
+    line-height: 25pt;
+    text-align: center;
+    padding: 0pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+}
 
+.subtitulo3{
+    @include fuente($raleway,16pt, 600);
+    line-height: 20pt;
+    text-align: center;
+    padding: 0pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    color: $violetaOscuro;
+}

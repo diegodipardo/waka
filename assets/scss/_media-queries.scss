@@ -258,6 +258,12 @@ position: relative;
     footer#contacto{
         grid-area: footer;
     }
+    .section__article--margin{
+        padding: 50px;
+        padding-bottom:200px ;
+        margin: 24px;
+        margin-bottom: 20px;
+    }
 }
 
 /* MEDIA QUERIES */
@@ -393,5 +399,15 @@ position: relative;
         color: $violeta;
         padding-top: 25pt;
         letter-spacing: 1px;
+    }
+    .videoTam{
+        width: 100%;
+        height: 25%;
+    }
+    .section__article--margin{
+        padding: 50px;
+        padding-bottom:80px ;
+        margin: 8px;
+        margin-bottom: 20px;
     }
     }

@@ -46,16 +46,11 @@ nav a {
   padding: 2px; }
 
 /* Próximas presentaciones recuadros  */
-section {
-  padding: 20px; }
-  section article {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-
 .section__article--margin {
-  padding: 15px;
-  margin: 5px; }
+  padding: 50px;
+  padding-bottom: 150px;
+  margin: 32px;
+  margin-bottom: 20px; }
 
 .section__article--redondeado {
   border-radius: 10px;
@@ -300,6 +295,10 @@ footer {
   max-width: 100%;
   height: auto; }
 
+.videoTam {
+  width: 100%;
+  height: 90%; }
+
 /*color RGB de fondo al body - fuente: Questrial*/
 body {
   margin-top: 120px;
@@ -351,6 +350,27 @@ p {
   line-height: 25pt;
   text-align: center;
   margin-bottom: 15pt; }
+
+.subtitulo2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20pt;
+  font-weight: 800;
+  line-height: 25pt;
+  text-align: center;
+  padding: 0pt;
+  margin-top: 5pt;
+  margin-bottom: 5pt; }
+
+.subtitulo3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 16pt;
+  font-weight: 600;
+  line-height: 20pt;
+  text-align: center;
+  padding: 0pt;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  color: #2d3469; }
 
 /* ANIMACIONES*/
 .menu-fixed {
@@ -718,7 +738,12 @@ body a {
   section#descargas {
     grid-area: descargas; }
   footer#contacto {
-    grid-area: footer; } }
+    grid-area: footer; }
+  .section__article--margin {
+    padding: 50px;
+    padding-bottom: 200px;
+    margin: 24px;
+    margin-bottom: 20px; } }
 
 /* MEDIA QUERIES */
 /* Desktop */
@@ -827,4 +852,12 @@ body a {
     line-height: 25pt;
     color: #40498F;
     padding-top: 25pt;
-    letter-spacing: 1px; } }
+    letter-spacing: 1px; }
+  .videoTam {
+    width: 100%;
+    height: 25%; }
+  .section__article--margin {
+    padding: 50px;
+    padding-bottom: 80px;
+    margin: 8px;
+    margin-bottom: 20px; } }
